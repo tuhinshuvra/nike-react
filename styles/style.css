@@ -1,0 +1,18 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif
+}
+
+.nike-logo {
+    width: 291.11px;
+    height: 39.27px;
+}
+
+.nike-nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+}
