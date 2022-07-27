@@ -4,6 +4,18 @@ body {
     font-family: 'Roboto', sans-serif
 }
 
+.common-button {
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.common-button img {
+    height: 20px;
+    width: 24px;
+}
+
 /* nav section start */
 .nike-logo {
     width: 291.11px;
@@ -53,16 +65,28 @@ body {
     color: #363958;
 }
 
-.slider_text button {
-    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
-    border-radius: 10px;
-    padding: 10px 20px;
-    border: none;
+/* casual-shoe section start */
+.shoe-inn {
+    margin-bottom: 80px;
+    /* padding: 100px; */
 }
 
-.slider_text button img {
-    height: 20px;
-    width: 24px;
+.card-img-top {
+    background: #F1F1F1;
+    border-radius: 20px;
 }
 
-/* slider section end */
+.card-footer h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+
+    color: #FA804C;
+}
+
+/* casual-shoe section end */
+.shopping {
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
