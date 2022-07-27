@@ -1,0 +1,91 @@
+/* `xs` returns only a ruleset and no media query */
+/* { ... } */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .slider {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 35px 25px;
+    }
+
+    .inner-single {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider_img {
+        margin-top: 30px;
+    }
+
+    .slider_text {
+        order: 0;
+    }
+
+    .slider_img {
+        order: 1;
+    }
+
+    .slider_text h1 {
+        font-size: 50px;
+        line-height: 70px;
+        color: #FA804C;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slider {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 35px 25px;
+    }
+
+    .inner-single {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider_img {
+        margin-top: 30px;
+    }
+
+    .slider_text {
+        order: 0;
+    }
+
+    .slider_img {
+        order: 1;
+    }
+
+    .slider_text h1 {
+        font-size: 50px;
+        line-height: 60px;
+        color: #FA804C;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .slider {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        padding: 35px 25px;
+    }
+
+    .slider_img {
+        margin-top: 30px;
+    }
+
+    .slider_text h1 {
+        font-size: 40px;
+        line-height: 60px;
+        color: #FA804C;
+    }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

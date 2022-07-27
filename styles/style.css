@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif
 }
 
+/* nav section start */
 .nike-logo {
     width: 291.11px;
     height: 39.27px;
@@ -16,3 +17,52 @@ body {
     font-size: 16px;
     /* line-height: 24px; */
 }
+
+/* nav section end */
+
+/* slider section start */
+.slider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 60px 60px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.slider_text h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    color: #FA804C;
+}
+
+.slider_text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.slider_span {
+    color: #363958;
+}
+
+.slider_text button {
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.slider_text button img {
+    height: 20px;
+    width: 24px;
+}
+
+/* slider section end */

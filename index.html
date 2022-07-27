@@ -11,11 +11,13 @@
 
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
     <title>Nike React</title>
 </head>
 
 <body>
     <header>
+        <!-- navbar section start -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container ">
                 <a class="navbar-brand" href="index.html">
@@ -45,6 +47,97 @@
                 </div>
             </div>
         </nav>
+        <!-- navbar section end -->
+
+        <!-- slider section start -->
+        <section class="slider container bg-secondary">
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <!-- inner slider one start -->
+                    <div class="carousel-item active">
+                        <div class="inner-single d-flex justify-content-between align-items-center">
+                            <div class="slider_img col-md-5 col-sm-12">
+                                <img src="/resource/images/Group 33092.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="slider_text col-md-6 col-sm-12">
+                                <h1><span class="slider_span1">NIKE REACT </span>
+                                    <span class="slider_span">INFINITY RUN 2</span>
+                                </h1>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero nemo nostrum, natus
+                                    magni sapiente animi nam quidem minus ratione repudiandae.</p>
+                                <button class=" btn btn-info d-inline "><img src="/resource/icons/shopping-cart 1.png"
+                                        alt="">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- inner slider one end -->
+
+                    <!-- inner slider two start -->
+                    <!-- <div class="carousel-item">
+                        <div class=" d-flex justify-content-between align-items-center">
+                            <div class="slider_img col-md-5">
+                                <img src="/resource/images/Daco_1703273 1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="slider_text col-lg-6 col-sm-12">
+                                <h1><span class="slider_span1">NIKE REACT </span>
+                                    <span class="slider_span">INFINITY RUN 2</span>
+                                </h1>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero nemo nostrum, natus
+                                    magni sapiente animi nam quidem minus ratione repudiandae.</p>
+                                <button class=" btn btn-info d-inline "><img src="/resource/icons/shopping-cart 1.png"
+                                        alt="">
+                                    BUY
+                                    NOW</button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- inner slider two end -->
+
+                    <!-- inner slider three start -->
+                    <!-- <div class="carousel-item ">
+                        <div class=" d-flex justify-content-between align-items-center">
+                            <div class="slider_img col-md-5 col-sm ">
+                                <img src="/resource/images/pngegg 1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="slider_text col-lg-6">
+                                <h1><span class="slider_span1">NIKE REACT </span>
+                                    <span class="slider_span">INFINITY RUN 2</span>
+                                </h1>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero nemo nostrum, natus
+                                    magni sapiente animi nam quidem minus ratione repudiandae.</p>
+                                <button class=" btn btn-info d-inline "><img src="/resource/icons/shopping-cart 1.png"
+                                        alt="">
+                                    BUY
+                                    NOW</button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- inner slider three end -->
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- slider section end -->
     </header>
 
     <main></main>
